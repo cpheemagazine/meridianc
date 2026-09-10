@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Meridian · LP Dashboard</title>
+<link rel="stylesheet" href="style.css" />
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js"></script>
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-dot"></span>
+        <h1>Meridian</h1>
+        <span class="brand-sub">LP Position History</span>
+      </div>
+      <nav class="page-nav">
+        <a href="index.html" class="page-nav-link active">Positions</a>
+        <a href="pools.html" class="page-nav-link">Pool Performance</a>
+      </nav>
+      <div class="topbar-actions">
+        <span id="lastUpdated" class="last-updated">—</span>
+        <button id="refreshBtn" class="btn-refresh" title="Refresh now">⟳</button>
+      </div>
+    </header>
+
+    <section class="summary-grid" id="summaryGrid">
+      <!-- summary cards injected here -->
+    </section>
+
+    <section class="positions-section">
+      <div class="positions-header">
+        <h2>Positions</h2>
+        <div class="tabs" id="tabs">
+          <button class="tab active" data-filter="all">All</button>
+          <button class="tab" data-filter="open">Open</button>
+          <button class="tab" data-filter="closed">Closed</button>
+        </div>
+      </div>
+      <div id="positionsList" class="positions-list"></div>
+      <div id="positionsPagination" class="pagination"></div>
+    </section>
+
+    <div id="detailOverlay" class="detail-overlay hidden">
+      <div class="detail-panel">
+        <button id="detailClose" class="detail-close">×</button>
+        <div id="detailContent"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="common.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

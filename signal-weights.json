@@ -1,0 +1,594 @@
+{
+  "weights": {
+    "organic_score": 1.745,
+    "fee_tvl_ratio": 0.659,
+    "volume": 0.3,
+    "mcap": 0.721,
+    "holder_count": 0.3,
+    "smart_wallets_present": 1,
+    "narrative_quality": 2.5,
+    "study_win_rate": 1,
+    "hive_consensus": 1,
+    "volatility": 2.5,
+    "entry_mcap": 2.044,
+    "entry_tvl": 0.408,
+    "entry_volume": 0.3
+  },
+  "last_recalc": "2026-09-09T23:47:56.212Z",
+  "recalc_count": 156,
+  "history": [
+    {
+      "timestamp": "2026-09-01T15:50:36.664Z",
+      "changes": [
+        {
+          "signal": "volume",
+          "from": 0.453,
+          "to": 0.43,
+          "lift": 0.004,
+          "action": "decayed"
+        },
+        {
+          "signal": "entry_tvl",
+          "from": 0.503,
+          "to": 0.478,
+          "lift": 0,
+          "action": "decayed"
+        }
+      ],
+      "window_size": 361,
+      "win_count": 258,
+      "loss_count": 103
+    },
+    {
+      "timestamp": "2026-09-01T22:24:33.057Z",
+      "changes": [
+        {
+          "signal": "volume",
+          "from": 0.43,
+          "to": 0.409,
+          "lift": 0.001,
+          "action": "decayed"
+        }
+      ],
+      "window_size": 363,
+      "win_count": 257,
+      "loss_count": 106
+    },
+    {
+      "timestamp": "2026-09-02T11:16:37.273Z",
+      "changes": [
+        {
+          "signal": "mcap",
+          "from": 0.3,
+          "to": 0.315,
+          "lift": 0.024,
+          "action": "boosted"
+        },
+        {
+          "signal": "entry_mcap",
+          "from": 0.891,
+          "to": 0.936,
+          "lift": 0.023,
+          "action": "boosted"
+        },
+        {
+          "signal": "volume",
+          "from": 0.409,
+          "to": 0.389,
+          "lift": 0.001,
+          "action": "decayed"
+        }
+      ],
+      "window_size": 360,
+      "win_count": 254,
+      "loss_count": 106
+    },
+    {
+      "timestamp": "2026-09-02T18:51:34.540Z",
+      "changes": [
+        {
+          "signal": "mcap",
+          "from": 0.315,
+          "to": 0.331,
+          "lift": 0.026,
+          "action": "boosted"
+        },
+        {
+          "signal": "entry_mcap",
+          "from": 0.936,
+          "to": 0.983,
+          "lift": 0.025,
+          "action": "boosted"
+        },
+        {
+          "signal": "volume",
+          "from": 0.389,
+          "to": 0.37,
+          "lift": 0.001,
+          "action": "decayed"
+        },
+        {
+          "signal": "organic_score",
+          "from": 2.5,
+          "to": 2.375,
+          "lift": -0.002,
+          "action": "decayed"
+        }
+      ],
+      "window_size": 358,
+      "win_count": 253,
+      "loss_count": 105
+    },
+    {
+      "timestamp": "2026-09-03T12:32:42.915Z",
+      "changes": [
+        {
+          "signal": "mcap",
+          "from": 0.331,
+          "to": 0.348,
+          "lift": 0.03,
+          "action": "boosted"
+        },
+        {
+          "signal": "entry_mcap",
+          "from": 0.983,
+          "to": 1.032,
+          "lift": 0.029,
+          "action": "boosted"
+        },
+        {
+          "signal": "volume",
+          "from": 0.37,
+          "to": 0.352,
+          "lift": 0,
+          "action": "decayed"
+        },
+        {
+          "signal": "organic_score",
+          "from": 2.375,
+          "to": 2.256,
+          "lift": -0.01,
+          "action": "decayed"
+        }
+      ],
+      "window_size": 353,
+      "win_count": 250,
+      "loss_count": 103
+    },
+    {
+      "timestamp": "2026-09-03T16:24:51.577Z",
+      "changes": [
+        {
+          "signal": "mcap",
+          "from": 0.348,
+          "to": 0.365,
+          "lift": 0.027,
+          "action": "boosted"
+        },
+        {
+          "signal": "entry_mcap",
+          "from": 1.032,
+          "to": 1.084,
+          "lift": 0.026,
+          "action": "boosted"
+        },
+        {
+          "signal": "volume",
+          "from": 0.352,
+          "to": 0.334,
+          "lift": 0,
+          "action": "decayed"
+        },
+        {
+          "signal": "organic_score",
+          "from": 2.256,
+          "to": 2.143,
+          "lift": -0.007,
+          "action": "decayed"
+        }
+      ],
+      "window_size": 355,
+      "win_count": 253,
+      "loss_count": 102
+    },
+    {
+      "timestamp": "2026-09-03T23:55:38.748Z",
+      "changes": [
+        {
+          "signal": "mcap",
+          "from": 0.365,
+          "to": 0.383,
+          "lift": 0.027,
+          "action": "boosted"
+        },
+        {
+          "signal": "entry_mcap",
+          "from": 1.084,
+          "to": 1.138,
+          "lift": 0.026,
+          "action": "boosted"
+        },
+        {
+          "signal": "volume",
+          "from": 0.334,
+          "to": 0.317,
+          "lift": 0.001,
+          "action": "decayed"
+        },
+        {
+          "signal": "organic_score",
+          "from": 2.143,
+          "to": 2.036,
+          "lift": -0.002,
+          "action": "decayed"
+        }
+      ],
+      "window_size": 353,
+      "win_count": 250,
+      "loss_count": 103
+    },
+    {
+      "timestamp": "2026-09-04T09:29:21.524Z",
+      "changes": [
+        {
+          "signal": "mcap",
+          "from": 0.383,
+          "to": 0.402,
+          "lift": 0.031,
+          "action": "boosted"
+        },
+        {
+          "signal": "entry_mcap",
+          "from": 1.138,
+          "to": 1.195,
+          "lift": 0.031,
+          "action": "boosted"
+        },
+        {
+          "signal": "volume",
+          "from": 0.317,
+          "to": 0.301,
+          "lift": 0.001,
+          "action": "decayed"
+        },
+        {
+          "signal": "organic_score",
+          "from": 2.036,
+          "to": 1.934,
+          "lift": -0.003,
+          "action": "decayed"
+        }
+      ],
+      "window_size": 349,
+      "win_count": 245,
+      "loss_count": 104
+    },
+    {
+      "timestamp": "2026-09-04T17:58:56.554Z",
+      "changes": [
+        {
+          "signal": "mcap",
+          "from": 0.402,
+          "to": 0.422,
+          "lift": 0.03,
+          "action": "boosted"
+        },
+        {
+          "signal": "entry_mcap",
+          "from": 1.195,
+          "to": 1.255,
+          "lift": 0.03,
+          "action": "boosted"
+        },
+        {
+          "signal": "volume",
+          "from": 0.301,
+          "to": 0.3,
+          "lift": 0.002,
+          "action": "decayed"
+        },
+        {
+          "signal": "organic_score",
+          "from": 1.934,
+          "to": 1.837,
+          "lift": -0.003,
+          "action": "decayed"
+        }
+      ],
+      "window_size": 349,
+      "win_count": 245,
+      "loss_count": 104
+    },
+    {
+      "timestamp": "2026-09-05T13:24:58.414Z",
+      "changes": [
+        {
+          "signal": "mcap",
+          "from": 0.422,
+          "to": 0.443,
+          "lift": 0.027,
+          "action": "boosted"
+        },
+        {
+          "signal": "entry_mcap",
+          "from": 1.255,
+          "to": 1.318,
+          "lift": 0.027,
+          "action": "boosted"
+        },
+        {
+          "signal": "entry_tvl",
+          "from": 0.478,
+          "to": 0.454,
+          "lift": 0,
+          "action": "decayed"
+        }
+      ],
+      "window_size": 345,
+      "win_count": 243,
+      "loss_count": 102
+    },
+    {
+      "timestamp": "2026-09-06T02:09:02.896Z",
+      "changes": [
+        {
+          "signal": "mcap",
+          "from": 0.443,
+          "to": 0.465,
+          "lift": 0.023,
+          "action": "boosted"
+        },
+        {
+          "signal": "entry_mcap",
+          "from": 1.318,
+          "to": 1.384,
+          "lift": 0.023,
+          "action": "boosted"
+        },
+        {
+          "signal": "entry_tvl",
+          "from": 0.454,
+          "to": 0.431,
+          "lift": 0.003,
+          "action": "decayed"
+        }
+      ],
+      "window_size": 337,
+      "win_count": 236,
+      "loss_count": 101
+    },
+    {
+      "timestamp": "2026-09-06T06:35:06.629Z",
+      "changes": [
+        {
+          "signal": "mcap",
+          "from": 0.465,
+          "to": 0.488,
+          "lift": 0.022,
+          "action": "boosted"
+        },
+        {
+          "signal": "entry_mcap",
+          "from": 1.384,
+          "to": 1.453,
+          "lift": 0.022,
+          "action": "boosted"
+        },
+        {
+          "signal": "entry_tvl",
+          "from": 0.431,
+          "to": 0.409,
+          "lift": 0.001,
+          "action": "decayed"
+        }
+      ],
+      "window_size": 338,
+      "win_count": 238,
+      "loss_count": 100
+    },
+    {
+      "timestamp": "2026-09-06T11:52:00.820Z",
+      "changes": [
+        {
+          "signal": "mcap",
+          "from": 0.488,
+          "to": 0.512,
+          "lift": 0.02,
+          "action": "boosted"
+        },
+        {
+          "signal": "entry_mcap",
+          "from": 1.453,
+          "to": 1.526,
+          "lift": 0.019,
+          "action": "boosted"
+        }
+      ],
+      "window_size": 341,
+      "win_count": 241,
+      "loss_count": 100
+    },
+    {
+      "timestamp": "2026-09-07T00:19:41.180Z",
+      "changes": [
+        {
+          "signal": "mcap",
+          "from": 0.512,
+          "to": 0.538,
+          "lift": 0.018,
+          "action": "boosted"
+        },
+        {
+          "signal": "entry_mcap",
+          "from": 1.526,
+          "to": 1.602,
+          "lift": 0.018,
+          "action": "boosted"
+        }
+      ],
+      "window_size": 341,
+      "win_count": 240,
+      "loss_count": 101
+    },
+    {
+      "timestamp": "2026-09-07T09:03:00.032Z",
+      "changes": [
+        {
+          "signal": "entry_mcap",
+          "from": 1.602,
+          "to": 1.682,
+          "lift": 0.019,
+          "action": "boosted"
+        },
+        {
+          "signal": "mcap",
+          "from": 0.538,
+          "to": 0.565,
+          "lift": 0.018,
+          "action": "boosted"
+        },
+        {
+          "signal": "entry_tvl",
+          "from": 0.409,
+          "to": 0.389,
+          "lift": 0.002,
+          "action": "decayed"
+        }
+      ],
+      "window_size": 340,
+      "win_count": 236,
+      "loss_count": 104
+    },
+    {
+      "timestamp": "2026-09-07T14:47:00.844Z",
+      "changes": [
+        {
+          "signal": "entry_mcap",
+          "from": 1.682,
+          "to": 1.766,
+          "lift": 0.018,
+          "action": "boosted"
+        },
+        {
+          "signal": "mcap",
+          "from": 0.565,
+          "to": 0.593,
+          "lift": 0.017,
+          "action": "boosted"
+        }
+      ],
+      "window_size": 341,
+      "win_count": 237,
+      "loss_count": 104
+    },
+    {
+      "timestamp": "2026-09-08T00:55:14.111Z",
+      "changes": [
+        {
+          "signal": "entry_mcap",
+          "from": 1.766,
+          "to": 1.854,
+          "lift": 0.019,
+          "action": "boosted"
+        },
+        {
+          "signal": "mcap",
+          "from": 0.593,
+          "to": 0.623,
+          "lift": 0.018,
+          "action": "boosted"
+        }
+      ],
+      "window_size": 342,
+      "win_count": 238,
+      "loss_count": 104
+    },
+    {
+      "timestamp": "2026-09-08T19:55:14.926Z",
+      "changes": [
+        {
+          "signal": "entry_mcap",
+          "from": 1.854,
+          "to": 1.947,
+          "lift": 0.021,
+          "action": "boosted"
+        },
+        {
+          "signal": "mcap",
+          "from": 0.623,
+          "to": 0.654,
+          "lift": 0.018,
+          "action": "boosted"
+        },
+        {
+          "signal": "fee_tvl_ratio",
+          "from": 0.73,
+          "to": 0.694,
+          "lift": 0.001,
+          "action": "decayed"
+        }
+      ],
+      "window_size": 334,
+      "win_count": 229,
+      "loss_count": 105
+    },
+    {
+      "timestamp": "2026-09-09T06:46:36.034Z",
+      "changes": [
+        {
+          "signal": "entry_mcap",
+          "from": 1.947,
+          "to": 2.044,
+          "lift": 0.016,
+          "action": "boosted"
+        },
+        {
+          "signal": "mcap",
+          "from": 0.654,
+          "to": 0.687,
+          "lift": 0.015,
+          "action": "boosted"
+        },
+        {
+          "signal": "fee_tvl_ratio",
+          "from": 0.694,
+          "to": 0.659,
+          "lift": 0.001,
+          "action": "decayed"
+        }
+      ],
+      "window_size": 334,
+      "win_count": 229,
+      "loss_count": 105
+    },
+    {
+      "timestamp": "2026-09-09T23:47:56.212Z",
+      "changes": [
+        {
+          "signal": "entry_tvl",
+          "from": 0.389,
+          "to": 0.408,
+          "lift": 0.017,
+          "action": "boosted"
+        },
+        {
+          "signal": "mcap",
+          "from": 0.687,
+          "to": 0.721,
+          "lift": 0.014,
+          "action": "boosted"
+        },
+        {
+          "signal": "organic_score",
+          "from": 1.837,
+          "to": 1.745,
+          "lift": -0.002,
+          "action": "decayed"
+        }
+      ],
+      "window_size": 330,
+      "win_count": 226,
+      "loss_count": 104
+    }
+  ]
+}

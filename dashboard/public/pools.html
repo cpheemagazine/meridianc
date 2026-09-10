@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Meridian · Pool Performance</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-dot"></span>
+        <h1>Meridian</h1>
+        <span class="brand-sub">Performance by Pool</span>
+      </div>
+      <nav class="page-nav">
+        <a href="index.html" class="page-nav-link">Positions</a>
+        <a href="pools.html" class="page-nav-link active">Pool Performance</a>
+      </nav>
+      <div class="topbar-actions">
+        <span id="lastUpdated" class="last-updated">—</span>
+        <button id="refreshBtn" class="btn-refresh" title="Refresh now">⟳</button>
+      </div>
+    </header>
+
+    <section class="pool-section">
+      <h2>Performance by Pool</h2>
+      <div id="poolTable" class="pool-table"></div>
+    </section>
+  </div>
+
+  <script src="common.js"></script>
+  <script src="pools.js"></script>
+</body>
+</html>
